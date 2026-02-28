@@ -343,6 +343,7 @@ const style = `
     align-items: center;
     gap: 10px;
     padding: 10px 12px;
+    min-height: 58px;
     background: var(--parchment);
     border: 1px solid var(--border);
     border-radius: 3px;
@@ -1505,7 +1506,7 @@ export default function App() {
             <div className="logo-area">
               <div className="logo-icon">🌿</div>
               <div className="logo-text">
-                <h1>TurfLogic</h1>
+                <h1>TurfCalc</h1>
                 <p>Yard Care · Property Maintenance · Invoice Tool</p>
               </div>
             </div>
